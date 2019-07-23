@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="unsw.Infs3605.Mydegree">
+    <!--android:roundIcon="@mipmap/ic_launcher_round"-->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:roundIcon="@mipmap/ic_mydegreeicon_round"
+        android:label="SUBG"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name="unsw.Infs3605.Mydegree.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="unsw.Infs3605.Mydegree.HomeActivity" />
+        <activity android:name="unsw.Infs3605.Mydegree.signupActivity" />
+        <activity android:name="unsw.Infs3605.Mydegree.DefaultTempleteActivity" />
+        <activity android:name="unsw.Infs3605.Mydegree.HomepageActivity" />
+        <activity android:name="unsw.Infs3605.Mydegree.MainActivity" />
+        <activity android:name="unsw.Infs3605.Mydegree.ManagementActivity" />
+
+
+
+
+
+        <activity android:name="unsw.Infs3605.Mydegree.year1_mgmtActivity" />
+        <activity android:name="unsw.Infs3605.Mydegree.year2_mgmtActivity" />
+        <activity android:name="unsw.Infs3605.Mydegree.year3_mgmtActivity" />
+        <activity
+            android:name="unsw.Infs3605.Mydegree.MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3605.Mydegree.NotesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3605.Mydegree.NoteEditorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3605.Mydegree.VideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3605.Mydegree.MenuDetail"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="unsw.Infs3605.Mydegree.QuizSelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3605.Mydegree.QuizTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3605.Mydegree.QuizResultsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="unsw.Infs3605.Mydegree.QuizReviewActivity"
+            />
+
+        <activity
+            android:name="unsw.Infs3605.Mydegree.QuizReviewActivity$resources_activitysearch"
+            android:label="@string/title_activity_resources_activitysearch"
+/>
+
+    </application>
+
+</manifest>

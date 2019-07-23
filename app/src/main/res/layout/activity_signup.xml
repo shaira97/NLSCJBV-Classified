@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="317dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="41dp"
+        android:text="Create an Account"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/rusername"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="58dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/rpw"
+        android:layout_width="294dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="59dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rusername" />
+
+    <EditText
+        android:id="@+id/rpwconf"
+        android:layout_width="293dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="59dp"
+        android:ems="10"
+        android:hint="Password Confirm"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rpw" />
+
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="74dp"
+        android:text="Create Account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rpwconf" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="74dp"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_btn" />
+
+</android.support.constraint.ConstraintLayout>

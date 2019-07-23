@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="149dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="142dp"
+        android:src="@drawable/laoos"
+        android:background="@drawable/border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/zid_input"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:hint="Username"
+        android:background="@drawable/border"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/pw_input"
+        android:background="@drawable/border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zid_input" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="214dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/border01"
+        android:text="Log in"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pw_input" />
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="214dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/border01"
+        android:shadowColor="@color/black"
+        android:text="Sign up"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_btn" />
+</android.support.constraint.ConstraintLayout>

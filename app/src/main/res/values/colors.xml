@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <item name="black_transparency_30" type="color">#4D000000</item>
+    <item name="red_transparency_30" type="color">#66FF0000</item>
+    <color name="bg_transparent">#00000000</color>
+    <color name="yellow">#FFCC2A</color>
+    <color name="greyish_brown">#4d4d4d</color>
+    <color name="quiz_question_row">#7CB5B5</color>
+
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="primary_light">#B3E5FC</color>
+    <color name="colorAccent">#FFD75E</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#8F8585</color>
+
+
+    <color name="myLeaves">#3A8133</color>
+
+    <color name="myPrimaryDark">#58816F</color>
+    <color name="myPrimaryBase">#77D886</color>
+    <color name="myGreen">#FFFFFF</color>
+    <color name="myPrimaryLight">#A6CB45</color>
+    <color name="myComplimentDark2">#81534B</color>
+    <color name="myComplimentDark">#4A251E</color>
+    <color name="myComplimentLight">#CEA7A0</color>
+    <color name="myAccent">#ff6d00</color>
+    <color name="brick_red">#C15C37</color>
+    <color name="lightg">#89BE3D</color>
+
+
+
+
+</resources>
